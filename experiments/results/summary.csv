@@ -1,0 +1,7 @@
+model,acc_mean,acc_std_across_subjects,bacc_mean,n_subjects,secs,paper_reported_%,model_raw
+RandomForest,0.7058,0.1113,0.6646,22,5.45,78.0,rf
+SVM(linear),0.7343,0.122,0.723,22,0.9682,74.0,svm_linear
+LDA,0.7505,0.142,0.741,22,1.6182,67.0,lda
+GRU,0.7324,0.1612,0.7228,22,56.4909,,gru
+LSTM,0.7092,0.177,0.7007,22,79.4045,,lstm
+ViT,0.605,0.1434,0.5922,22,24.8364,,vit
