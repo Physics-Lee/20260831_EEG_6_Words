@@ -27,8 +27,8 @@ import numpy as np
 
 mne.set_log_level("ERROR")
 
-BASE = Path(r"D:/repositories/20260831_EEG_6_Words/data/inner_speech_v2")
-RESULTS = Path(r"D:/repositories/20260831_EEG_6_Words/experiments/results")
+BASE = Path(r"D:/repositories/20260831_reproduce_20260817_kostulin/data/inner_speech_v2")
+RESULTS = Path(r"D:/repositories/20260831_reproduce_20260817_kostulin/experiments/results")
 RESULTS.mkdir(parents=True, exist_ok=True)
 
 N_T = 500

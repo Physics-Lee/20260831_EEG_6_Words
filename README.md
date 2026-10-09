@@ -13,7 +13,7 @@
 ## 目录结构
 
 ```
-20260831_EEG_6_Words/
+20260831_reproduce_20260817_kostulin/
 ├── paper/                          # 论文
 │   └── s41597-026-07809-9.pdf     # 正文 PDF（13 页）
 ├── data/                           # 数据（Zenodo）
@@ -71,7 +71,7 @@ pip install -r requirements.txt   # mne, numpy, pandas
 import utils
 from pathlib import Path
 
-utils.DEFAULT_BASE = Path(r"D:/repositories/20260831_EEG_6_Words/data/inner_speech_v2")
+utils.DEFAULT_BASE = Path(r"D:/repositories/20260831_reproduce_20260817_kostulin/data/inner_speech_v2")
 # 详见 example_usage.ipynb 与 utils/loader.py、utils/labels.py
 ```
 
@@ -126,3 +126,5 @@ python summarize.py   # 汇总 + summary.png
 - **Supplementary**：该论文在 nature.com 上未提供独立的补充材料文件（页面无 Supplementary
   Information 章节及 MOESM 附件），全部图表包含在 `paper/` 的正文 PDF 中，故本仓库无 `supplementary/` 目录。
 - 数据与论文均为 CC-BY-4.0 开放许可；引用要求见原文 Rights and permissions。
+
+> 改名记录：2026-10-09 按顶层命名规范 yyyymmdd_reproduce_yyyymmdd_author 自 `20260831_EEG_6_Words` 改名（第二个日期为论文公开发表日，一作 Kostulin（EEG directional word recognition, Sci Data 2026-08-17）），引用路径已全量同步。
